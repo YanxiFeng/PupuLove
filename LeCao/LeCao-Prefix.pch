@@ -1,0 +1,43 @@
+//
+//  LeCao-Prefix.pch
+//  LeCao
+//
+//  Created by Mr. Feng on 12/10/15.
+//  Copyright © 2015 YX. All rights reserved.
+//
+
+#ifndef LeCao_Prefix_pch
+#define LeCao_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import <AVOSCloud/AVOSCloud.h>
+#import <LeanCloudSocial/AVOSCloudSNS.h>
+#import <UIImageView+WebCache.h>
+
+#import "macro.h"
+#import "StaticString.h"
+
+#import "UIImage+ColorImage.h"
+#import "UIColor+ColorTools.h"
+#import "UserInfoModel.h"
+#import "BBSTopicModel.h"
+#import "PPAccountTool.h"
+
+#import "MBProgressHUD+Show.h"
+#import "UIViewController+Keydismiss.h"
+#import "NSString+StringTool.h"
+#import "NSDate+Formatter.h"
+#import "UITableView+FDTemplateLayoutCell.h"
+
+#endif
+
+#endif /* LeCao_Prefix_pch */
+
